@@ -7,16 +7,16 @@
 
 		<meta name="Example of how to build websites quickly using Twitter Bootstrap" content="#"> <!-- (Example: Compelling description to be displayed on Search Engine) -->
 <!-- TODO: change name-->
-		<meta name="Jennifer Pham" content="#"> <!-- (Developers Name) -->
+		<meta name="DavidHartman00" content="#"> <!-- (Developers Name) -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Bootstrap Example 1</title>
 <!-- (External) Default Style Sheets =========== -->
 <!-- TODO: add link references to bootstrap and font awesome-->
-
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
 <!-- My Style Sheets ============================== -->
 <!-- TODO: add reference to my custom style sheet-->
-
+		<link rel="stylesheet" href="css/style.css">
 
 	</head>
 	<body>
@@ -26,7 +26,39 @@
 
 
 <!--Start: nav.navbar.navbar-default-->
-
+	<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<!--  hamburger menu -mobile-->
+					<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#whatevername">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!--  logo-->
+					<a class="img-responsive" href="#">
+						<img src="img/1-batmanlogo.png" alt="batman logo" />
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="whatevername">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">About Us</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Costumer Types
+								<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Adults</a></li>
+										<li><a href="#">Kids</a></li>
+										<li><a href="#">Babies</a></li>
+										<li role="separator" class="divider"></li>
+										<li><a href="#">Accessories</a></li>
+									</ul>
+						</li>
+						<li><a href="#">Discounts</a></li>
+						<li><a href="#">Testimonials</a></li>
+					</ul>
+				</div>
+			</div>
 	<!--Navbar: mobile button-->
 
 	<!--Navbar: links section-->
