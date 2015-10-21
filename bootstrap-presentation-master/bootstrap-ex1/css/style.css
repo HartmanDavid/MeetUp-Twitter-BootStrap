@@ -2,7 +2,7 @@ section{
     padding: 40px 0;
 }
 .headerbanner{
-    background: url('/img/1-halloween-banner.jpg') center center no-repeat;
+    background: url('../img/1-halloween-banner.jpg') center center no-repeat;
     background-size: cover;
     height: 400px;
     text-shadow: 2px 2px #FF0000;
